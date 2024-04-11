@@ -211,6 +211,78 @@ h1 {
   font-size: 1.3em;
 }
 
+#contact {
+  height: calc(100vh - 300px);
+  background-image: url("assets/contact-background.png");
+  background-size: cover;
+  background-position: cover;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.contact-form {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-details {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact-details h2 {
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.contact-list li span {
+  font-weight: bold;
+}
+
+#contact-title {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 /*Roboto
 Open Sans
 Lato
