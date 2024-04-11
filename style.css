@@ -7,6 +7,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+button {
+  font-family: Times, serif;
+}
+
 h1 {
   font-family: Times, serif;
 }
@@ -72,10 +76,6 @@ h1 {
   margin: 0;
 }
 
-#about {
-  height: 100vh;
-}
-
 #team {
   /* Center items */
   display: flex;
@@ -132,3 +132,113 @@ h1 {
   width: 50px;
   cursor: pointer;
 }
+
+.home-button {
+  background-color: #895ED4;
+  width: 200px;
+  color: #FFFFFF; /* White Text */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px; /* Rounded Corners */
+  transition: background-color 0.3s ease; /* Smooth Transition for Hover */
+}
+.button:hover {
+  background-color: #003366; /* Slightly Darker Shade for Hover Effect */
+}
+
+#about {
+  margin: auto;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.feature-section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 20px;
+}
+
+.feature-text {
+  flex-basis: 70%; /* Takes up half the width of the parent container */
+}
+
+
+.feature-image {
+  flex-basis: 30%;
+}
+
+.feature-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.feature-image-container img {
+  width: 80%; /* Makes the image take up 50% of the container's width */
+  height: auto; /* Maintains the image's aspect ratio */
+}
+
+.feature-text-container {
+  width: 75%;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.feature-text-container h2 {
+  font-size: 2.5em;
+}
+
+.feature-text-container p {
+  font-size: 1.3em;
+}
+
+/*Roboto
+Open Sans
+Lato
+Montserrat
+Raleway
+Poppins
+Playfair Display
+Avenir Next
+Futura
+Gotham
+Helvetica Neue
+Brandon Grotesque
+Nunito
+Oswald
+Merriweather
+Baskerville
+Vogue
+Didot
+Bodoni
+Proxima Nova
+Garamond
+Josefin Sans
+Quicksand
+Sofia
+Pacifico
+Bebas Neue
+Abril Fatface
+Libre Baskerville
+Cormorant
+Spectral
+*/
