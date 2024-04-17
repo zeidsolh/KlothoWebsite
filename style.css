@@ -249,9 +249,16 @@ h1 {
   padding: 10px;
   background-color: #333;
   color: #fff;
-  border: none;
+  border: none; 
   border-radius: 5px;
   cursor: pointer;
+}
+
+.contact-title {
+  justify-content: center;
+}
+
+.contact-title-section {
 }
 
 .contact-details {
@@ -259,6 +266,9 @@ h1 {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .contact-details h2 {
@@ -281,7 +291,7 @@ h1 {
 #contact-title {
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: flex;c
 }
 /*Roboto
 Open Sans
